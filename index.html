@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mano Reshika Portfolio</title>
+
+  <meta name="keywords" content="portfolio, web developer, HTML, CSS, JavaScript, Python">
+  <meta name="description" content="Portfolio of Mano Reshika - Web Developer">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <div class="container header-container">
+    <h1>Mano Reshika</h1>
+
+    <button class="nav-toggle" aria-label="Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button id="darkModeToggle" class="dark-btn" aria-label="Dark Mode">🌙</button>
+  </div>
+</header>
+
+<section id="about" class="card-section">
+  <div class="container about-flex">
+    <div>
+      <h2>About Me</h2>
+      <p>Web Developer | Python Learner | Computer Science Student</p>
+      <p>
+        I am a Computer Science student at VSP Engineering College passionate about web development,
+        Python, and creating responsive projects.
+      </p>
+
+      <div class="social-icons">
+        <a href="https://github.com/Manoreshika/scientific-calculator" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+
+    <img src="images/profile.jpg" alt="Mano Reshika" class="profile-pic">
+  </div>
+</section>
+
+<section id="projects" class="card-section">
+  <div class="container">
+    <h2>My Projects</h2>
+    <div id="projects-grid" class="projects-grid"></div>
+  </div>
+</section>
+
+<section id="skills" class="card-section">
+  <div class="container">
+    <h2>Skills</h2>
+
+    <p>HTML</p>
+    <div class="skill-bar" data-width="90%"><div></div></div>
+
+    <p>CSS</p>
+    <div class="skill-bar" data-width="85%"><div></div></div>
+
+    <p>JavaScript</p>
+    <div class="skill-bar" data-width="75%"><div></div></div>
+
+    <p>Python</p>
+    <div class="skill-bar" data-width="80%"><div></div></div>
+  </div>
+</section>
+
+<section id="education" class="card-section">
+  <div class="container">
+    <h2>Education</h2>
+
+    <article class="education-box">
+      <h3>Computer Science and Engineering</h3>
+      <p>VSP Engineering College</p>
+      <p>2024 - 2028</p>
+      <p>CGPA: 8.17</p>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="card-section">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:manoreshika@gmail.com">manoreshika@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Manoreshika" target="_blank" rel="noopener noreferrer">github.com/Manoreshika</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Mano Reshika | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
